@@ -9,10 +9,10 @@ using namespace std;
 int main()
 {
 	Player NewPlayer;
+	NewPlayer.SetHP
+	(-100);
 
-	NewPlayer.Gold = 10;
-	NewPlayer.HP = 100;
-	NewPlayer.Collect();
+	int CurrentHP = NewPlayer.GetHP();
 
 	return 0;
 }
